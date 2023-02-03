@@ -1,0 +1,14 @@
+<suite name="org.testCases">
+    <test name="TestNG">
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name ="Successful Register" />-->
+<!--            </run>-->
+<!--        </groups>-->
+        <parameter name = "url" value = "http://tutorialsninja.com/demo/index.php?route=common/home" />
+        <parameter name = "browserName" value = "chrome" />
+        <classes>
+            <class name="org.example.TestNG" />
+        </classes>
+    </test>
+</suite>
